@@ -1,7 +1,8 @@
 //your JS code here. If required.
 
-let Input=document.querySelector("input");
+function myfunction(){
+	
+	let Input=document.querySelector("input");
+	Input.value=Input.value.toUpperCase();
+}
 
-Input.addEventListener("blur", function(){
-	Input.value.toUpperCase();
-});
